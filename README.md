@@ -622,7 +622,7 @@ Map Filter Reduce
 ```python
 from functools import reduce
 list(map(lambda x: x + 1, range(10)))            # [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
-list(filter(lambda x: x > 5, range(10)))         # (6, 7, 8, 9)
+list(filter(lambda x: x > 5, range(10)))         # [6, 7, 8, 9]
 reduce(lambda acc, x: acc + x, range(10))        # 45
 ```
 
